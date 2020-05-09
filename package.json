@@ -1,0 +1,13 @@
+{
+  "name": "example-hello-world",
+  "dependencies": {
+    "@zoomus/websdk": "^1.7.7",
+    "nuxt": "latest"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "post-update": "yarn upgrade --latest"
+  }
+}
